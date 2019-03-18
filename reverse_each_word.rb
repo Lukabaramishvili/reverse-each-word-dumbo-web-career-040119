@@ -1,6 +1,5 @@
 def reverse_each_word(str)
-  words = str.slip()
-  words.each do |word|
-    return word.reverse
-  end
+  new_str = str.to_a 
+  new_str.each do |word|
+    word.reverse 
 end 
